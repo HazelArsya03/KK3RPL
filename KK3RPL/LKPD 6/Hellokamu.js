@@ -1,0 +1,1 @@
+alert("Heii akuteh dari file external tauuu");

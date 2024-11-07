@@ -1,0 +1,15 @@
+p{
+    color: violet;
+    font-size-adjust: 7;
+    font-family: KG Happy Solid, Impact;
+    background-color: darkcyan;
+}
+body {
+    background-color: darkturquoise;
+}
+p#Hewan {
+    color: darksalmon;
+    font-size-adjust: 1;
+    font-family: KG Happy Solid, Impact;
+    background-color: khaki;
+}

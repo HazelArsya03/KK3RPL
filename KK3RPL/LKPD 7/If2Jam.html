@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo IF</title>
+    <link rel="stylesheet" href="BuatIf.css" type="text/css">
+</head>
+<body>
+    <p>Akan muncul tulisan "Good Day!" jika waktu kurang dari 18.00</p>
+    <p id="demo">Good Evening!</p>
+    <script>
+        if(new Date().getHours() < 16) 
+        {
+        document.getElementById("demo").innerHTML = "Good Day!";
+        }
+    </script>
+</body>
+</html>

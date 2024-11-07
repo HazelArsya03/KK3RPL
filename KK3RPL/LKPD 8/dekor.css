@@ -1,0 +1,26 @@
+body {
+    font-family: Courir New;
+    margin: 20px;
+    background-color: aqua;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  /* Untuk membuat tampilan lebih menarik, kamu bisa menambahkan warna, padding, margin, dan lain-lain. Contoh: */
+  
+  .container {
+    background-color: darkcyan;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .result {
+    color: salmon;
+    font-weight: bold;
+  }

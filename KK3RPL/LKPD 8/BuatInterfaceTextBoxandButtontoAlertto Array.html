@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Dengan JS</title>
+    <link rel="stylesheet" href="Interface.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+    <p id="coba">
+        <input type="text" name="nilai" />
+        <input type="text" name="nilai" />
+        <input type="button" id="btnAmbilNilai" value="Ambil Nilai" onclick="ambilNilai();"/>
+        <script language="Javascript" type="text/Javascript">
+            function ambilNilai(){
+                var obj1 = document.getElementsByName('nilai') [0];
+                var obj2 = document.getElementsByName('nilai') [1];
+                var n1 = obj1.value;
+                var n2 = obj2.value;
+                alert("nilai pertama adalah " + n1);
+                alert("nilai kedua adalah " + n2);
+            }
+        </script></div>
+    </p>
+</body>
+</html>

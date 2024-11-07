@@ -1,0 +1,24 @@
+h1 {
+    color: orangered;
+    text-align: center;
+    font-family: Impact, Consolas;
+}
+video {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 400;
+}
+videoWrapper {
+    position: relative;
+    padding-bottom: 56,25%;
+    padding-top: 25px;
+    height: 0;
+}
+videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+}

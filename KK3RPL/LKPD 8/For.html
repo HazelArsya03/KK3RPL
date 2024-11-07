@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Pada Javascript</title>
+    <link rel="stylesheet" href="dekor.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+    <h2>Pengulangan For Pada Javascript</h2>
+
+    <p id="for" class="result"></p>
+    </div>
+    <script>
+        alert("Silahkan untuk memasukkan angka")
+        var n = prompt("Masukan nilai n");
+        n = parseInt(n);
+        var text = "";
+        var i ;
+        for (i = 1; i < n; i++) {
+            text += "Mengulang angka sebelum Nilai n :" + i + "<br>";
+        }
+        document.getElementById("for").innerHTML = text;
+    </script>
+</body>
+</html>

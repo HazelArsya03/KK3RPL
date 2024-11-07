@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Dengan JS</title>
+    <link rel="stylesheet" href="Interface.css" type="text/css">
+</head>
+<body>
+    <p id="coba">
+        <script language="Javascript" type="text/Javascript">
+            function sayHalo(){
+                var nm = document.getElementById('nama').value;
+                alert("Halo, " + nm);
+            }
+        </script>
+        <div class="container">
+        <label>Tulis nama disini</label>
+        <input type="text" id="nama" onchange="sayHalo();"  />
+    </div>
+    </p>
+</body>
+</html>

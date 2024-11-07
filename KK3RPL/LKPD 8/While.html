@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Pada Javascript</title>
+    <link rel="stylesheet" href="dekor.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+    <h2>Pengulangan While Pada Array</h2>
+    <p id="ulangwhile"></p>
+    </div>
+    <script>
+        var siswa = ["Ilham" , "Arsy" , "Adham" , "Raihan" , "Zio"];
+        var i = 0;
+        var text = "";
+        while (siswa[i]) {
+            text += siswa[i] + "<br>";
+            i++;
+        } 
+        document.getElementById("ulangwhile").innerHTML = text;
+    </script>
+</body>
+</html>

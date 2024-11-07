@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Fungsi</title>
+    <link rel="stylesheet" href="dekor.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <p id="fungsi">
+    <script>
+        function hitungLuasAlas (p,l) {
+            var luas = p * l;
+            return luas;
+        }
+        function hitungVolume (la,t){
+            var vol = la*t / 2 ;
+            return vol;
+        }
+        var panjang = 5;
+        var lebar = 7;
+        var tinggi = 10;
+        var luasAlas ;
+        var volume;
+
+        luasAlas= hitungLuasAlas(panjang,lebar);
+        volume = hitungVolume(luasAlas,tinggi);
+        alert("Ini adalah luas alas ==>" + luasAlas);
+        alert("Ini adalah volume ==>" + volume);
+    </script></p></div>
+</body>
+</html>

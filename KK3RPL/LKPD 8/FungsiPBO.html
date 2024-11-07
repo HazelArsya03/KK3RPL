@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buat Fungsi PBO</title>
+    <link rel="stylesheet" href="Interface.css" type="text/css">
+</head>
+<body>
+    <p id="coba">
+        <script language="Javascript" type="text/Javascript">
+            function SegiEmpat(){}
+            function SegiEmpat(){
+                this.panjang = 0;
+                this.lebar = 0;
+                this.hitungLuas = function(){
+                    var luas = this.panjang * this.lebar;
+                    return luas;
+                }
+                this.hitungKeliling = function (){
+                    var kel = 2 * (this.panjang * this.lebar);
+                    return kel;
+                }
+            }
+
+            var s = new SegiEmpat();
+            s.panjang = 4;
+            s.lebar = 3;
+            alert("Luasnya adalah" + s.hitungLuas()+" cm");
+            alert("dan keliling nya adalah" + s.hitungKeliling()+" cm");
+        </script>
+    </p>
+</body>
+</html>
